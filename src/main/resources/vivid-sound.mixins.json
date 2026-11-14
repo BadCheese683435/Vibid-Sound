@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.vivid.sound.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"SoundManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "vivid-sound",
+	"version": "${version}",
+	"name": "Vivid Sound",
+	"description": "Make sounds visual and tangible",
+	"authors": [
+		"BadCheese683435"
+	],
+	"contact": {
+		"homepage": "https://github.com/BadCheese683435/Vibid-Sound",
+		"sources": "https://github.com/BadCheese683435/Vibid-Sound"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/vivid-sound/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.vivid.sound.VividSound"
+		]
+	},
+	"mixins": [
+		"vivid-sound.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
